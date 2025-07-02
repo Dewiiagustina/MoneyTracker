@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:layout_width="165dp"
+        android:id="@+id/ivProfilePhoto"
+        android:layout_height="151dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/wallet_logo_description"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/tv_profile_header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_page_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_profile_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="60dp"
+        tools:text="user@example.com" />
+
+
+
+    <!-- Tombol untuk Ubah Kata Sandi -->
+    <Button
+        android:id="@+id/btn_change_password_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_password_title"
+        android:paddingVertical="12dp"
+        android:backgroundTint="@color/green_button"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_button"
+        app:cornerRadius="10dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="@color/red_error" />
+
+</LinearLayout>
