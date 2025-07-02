@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">MoneyTracker</string>
+    <string name="slogan">Your Money, Well Organized</string>
+    <string name="wallet_logo_description">Money Tracker Logo</string>
+
+    <!-- Welcome Activity -->
+    <string name="create_account_button">CREATE ACCOUNT</string>
+    <string name="login_button">LOGIN</string>
+
+    <!-- Register Activity -->
+    <string name="create_your_account">Create Your Account</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="register_button">REGISTER</string>
+    <string name="already_have_account">Already Have Account? %s</string>
+    <string name="login_link_text">Login</string>
+    <string name="fill_all_fields_error">Please fill all fields.</string>
+    <string name="password_length_error">Password must be at least 6 characters.</string>
+    <string name="password_mismatch_error">Passwords do not match.</string>
+    <string name="registration_success">Registration successful!</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="registration_success_but_data_failed">Registration successful, but profile data save failed</string>
+
+    <!-- Login Activity -->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="dont_have_account">Don\'t Have Account? %s</string>
+    <string name="register_link_text">Register</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_failed">Login failed</string>
+
+    <!-- Profile Page -->
+    <string name="profile_page_title">Nama User</string>
+    <string name="logged_in_as">Masuk sebagai:</string>
+    <string name="full_name_display">Nama Lengkap:</string>
+    <string name="email_display">Email:</string>
+    <string name="logout_button">LOGOUT</string>
+
+    <!-- Add/Edit Transaction -->
+    <string name="add_transaction_title">Add New Transaction</string>
+    <string name="hint_description">Description (e.g., lunch, salary)</string>
+    <string name="hint_amount">Amount (e.g., 50000.00)</string>
+    <string name="hint_date_format">Date (YYYY-MM-DD)</string>
+    <string name="radio_income">Income</string>
+    <string name="radio_expense">Expense</string>
+    <string name="prompt_select_category">Select Category</string>
+    <string name="button_add_transaction_form">Add Transaction</string>
+
+    <!-- Edit Dialog -->
+    <string name="dialog_edit_title">Edit Transaction</string>
+    <string name="button_save">SAVE</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="button_edit">EDIT</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="dialog_delete_title">Delete Transaction</string>
+    <string name="dialog_delete_message">Are you sure you want to delete \'%s\'?</string>
+    <string name="button_delete">DELETE</string>
+
+    <!-- Main Activity List & Totals -->
+    <string name="list_of_transactions_title">Transaction History</string>
+    <string name="desc_transactions_list">List of financial transactions</string>
+    <string name="total_income_display">Income: %s</string>
+    <string name="total_expense_display">Expense: %s</string>
+    <string name="balance_display">Availabel Balance: %s</string>
+    <string name="filter_options_title">Filter Options</string>
+    <string name="financial_summary_title">Financial Summary</string>
+    <string name="hello_user">Hello, User</string>
+    <string name="budget_summary_text">Here\'s your budget summary</string>
+    <string name="total_amount_text">Total</string>
+
+
+    <!-- Report Page -->
+    <string name="report_page_title">Financial Report</string>
+    <string name="expense_summary_title">Expense Summary by Category</string>
+    <string name="total_expense_center_text">Total Expense</string>
+    <string name="no_expense_chart_data">No expense data to display.</string>
+    <string name="view_report_button">VIEW REPORT</string>
+
+    <!-- Month/Year Filters -->
+    <string name="prompt_select_month">Select Month</string>
+    <string name="month_all">All Months</string>
+    <string name="month_01">January</string>
+    <string name="month_02">February</string>
+    <string name="month_03">March</string>
+    <string name="month_04">April</string>
+    <string name="month_05">May</string>
+    <string name="month_06">June</string>
+    <string name="month_07">July</string>
+    <string name="month_08">August</string>
+    <string name="month_09">September</string>
+    <string name="month_10">October</string>
+    <string name="month_11">November</string>
+    <string name="month_12">December</string>
+    <string name="year_all">All Years</string>
+
+    <string name="add_transaction_button">ADD TRANSACTION</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_graph">Graph</string>
+    <string name="nav_history">History</string>
+    <string name="nav_profile">Profile</string>
+    <string name="no_category_available">No Category Available</string>
+
+    <!-- Strings for Change Password Feature -->
+    <string name="change_password_title">Change Password</string>
+    <string name="current_password_hint">Current Password</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="confirm_new_password_hint">Confirm New Password</string>
+    <string name="change_password_button">Change Password</string>
+    <string name="password_change_success">Password Changet Succes!</string>
+    <string name="password_change_failed">Password Changet Failed: %s</string>
+    <string name="reauthentication_required">Re-authentication required.</string>
+    <string name="password_update_failed_reauth">Password update failed. Re-authentication required.</string>
+    <string name="old_password_incorrect">Old Password Incorect.</string>
+    <string name="new_password_mismatch"> New Password Mismatch.</string>
+    <string name="fill_all_password_fields">Fill all password fields.</string>
+    <string name="password_min_length_error">Password must be at least 6 characters.</string>
+
+</resources>

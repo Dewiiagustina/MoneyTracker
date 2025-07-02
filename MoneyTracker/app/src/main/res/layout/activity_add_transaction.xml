@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".AddTransactionActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Add Transaksi"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:hint="Description"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Amount"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/et_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:minHeight="48dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:inputType="date"
+        android:focusable="false"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:autofillHints="date"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_edittext_bg"
+        android:layout_marginTop="15dp">
+        <RadioButton
+            android:id="@+id/rb_income"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Income"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="16dp"/>
+        <RadioButton
+            android:id="@+id/rb_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense"/>
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:minHeight="48dp"
+        android:background="@drawable/card_bg"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_add_transaction"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Add Transaction"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/accent_color"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
